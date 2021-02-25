@@ -24,71 +24,36 @@
       <h1>TÉLÉCHARGEZ L’AFFICHE:</h1>
       <p>Cet outil est en phase de test. Remplissez les informations et téléchargez l’image. Si vous avez des difficultés, n’hésitez pas à nous contacter par mail : <a href="mailto:eixample.respira@gmail.com">eixample.respira@gmail.com</a>.</p>
       <div class="row">
+        <label>Langage:</label>
+        <div class="shopify-select">
+          <select data-location>
+            <option value="https://www.schoolrebellion.com/poster">English</option>
+            <option value="https://www.revueltaescolar.es/poster">Español</option>
+            <option value="https://www.rebelliondesecoles.fr/poster" selected>Français</option>
+            <option value="https://www.revoltaescolar.cat/poster">Català</option>
+          </select>
+          <svg class="shopify-select-icon" viewBox="0 0 24 24"><path d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z"></path></svg>
+        </div>
+      </div>
+      <div class="row">
         <label>Description de la mobilisation:</label>
-        <input type="text" data-target=".poster .subtitle" placeholder="Nous coupons la rue de l'Horloge">
+        <input type="text" data-target=".poster .subtitle" placeholder="Nous coupons la rue de l'Horloge" value="Nous coupons la rue de l'Horloge">
       </div>
       <div class="row">
         <label>Date :</label>
-        <div class="shopify-select">
-          <select data-target=".poster .date">
-            <option>Vendredi 26 février</option>
-            <option>Vendredi 12 mars</option>
-            <option>Vendredi 26 mars</option>
-          </select>
-          <svg class="shopify-select-icon" viewBox="0 0 24 24"><path d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z"></path></svg>
-        </div>
+        <input type="text" data-target=".poster .date" placeholder="Vendredi 7 mai" value="Vendredi 7 mai">
       </div>
       <div class="row">
         <label>Heure :</label>
-        <div class="shopify-select">
-          <select data-target=".poster .time">
-            <option>12h00</option>
-            <option>12h15</option>
-            <option>12h30</option>
-            <option>12h45</option>
-            <option>13h00</option>
-            <option>13h15</option>
-            <option>13h30</option>
-            <option>13h45</option>
-            <option>14h00</option>
-            <option>14h15</option>
-            <option>14h30</option>
-            <option>14h45</option>
-            <option>15h00</option>
-            <option>15h15</option>
-            <option>15h30</option>
-            <option>15h45</option>
-            <option>16h00</option>
-            <option>16h15</option>
-            <option selected>16h30</option>
-            <option>16h45</option>
-            <option>17h00</option>
-            <option>17h15</option>
-            <option>17h30</option>
-            <option>17h45</option>
-            <option>18h00</option>
-          </select>
-          <svg class="shopify-select-icon" viewBox="0 0 24 24"><path d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z"></path></svg>
-        </div>
+        <input type="text" data-target=".poster .time" placeholder="16h30" value="16h30">
       </div>
       <div class="row">
         <label>Lieu :</label>
-        <input type="text" data-target=".poster .location" maxlength="38" placeholder="Rue de l’Horloge avec Théâtre">
+        <input type="text" data-target=".poster .location" placeholder="Rue de l’Horloge avec Théâtre" value="Rue de l’Horloge avec Théâtre">
       </div>
       <div class="row">
         <label>Durée :</label>
-        <div class="shopify-select">
-          <select data-target=".poster .duration">
-            <option>30 minutes</option>
-            <option>45 minutes</option>
-            <option>1 heure</option>
-            <option>1 heure et demie</option>
-            <option>2 heures</option>
-            <option>3 heures</option>
-            <option>4 heures</option>
-          </select>
-          <svg class="shopify-select-icon" viewBox="0 0 24 24"><path d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z"></path></svg>
-        </div>
+        <input type="text" data-target=".poster .duration" placeholder="Durée : 16h30" value="Durée : 16h30">
       </div>
       <div class="row">
         <label>Logo des organisateurs :</label>
@@ -114,10 +79,10 @@
           <img class="background" src="/images/base-fr.png?v=1">
           <div class="text subtitle">Nous coupons la rue de l'Horloge</div>
           <div class="text info">
-            <b><span class="date">Vendredi 26 février</span></b><br>
-            <b><span class="time">16h30</span> h</b><br>
+            <b><span class="date">Vendredi 7 mai</span></b><br>
+            <b><span class="time">16h30</span></b><br>
             <span class="location">Rue de l’Horloge avec Théâtre</span><br>
-            Durée: <span class="duration">30 minutes</span>
+            <span class="duration">Durée : 30 minutes</span>
           </div>
           <div class="logos">
             <div class="section summons">
